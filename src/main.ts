@@ -144,7 +144,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   </main>
 
   <footer class="footer"><a class="brand" href="#inicio">VALE<span>DEV</span><i>.</i></a><span>© ${new Date().getFullYear()} ValeDev. Todos los derechos reservados.</span><a href="#inicio">VOLVER ARRIBA ↑</a></footer>
-  <a class="whatsapp-float" href="${whatsapp}" target="_blank" rel="noreferrer" aria-label="Contactar a ValeDev por WhatsApp"><span>◉</span><b>WhatsApp</b></a>
+  <a class="whatsapp-float" href="${whatsapp}" target="_blank" rel="noreferrer" aria-label="Contactar a ValeDev por WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.04 3C8.86 3 3.02 8.83 3.02 16c0 2.3.6 4.54 1.75 6.52L3 29l6.65-1.74A13 13 0 0 0 16.04 29C23.2 29 29 23.17 29 16S23.2 3 16.04 3Zm0 23.8c-1.98 0-3.92-.53-5.61-1.54l-.4-.24-3.95 1.03 1.05-3.84-.26-.4A10.77 10.77 0 0 1 5.2 16c0-5.96 4.86-10.8 10.84-10.8 5.96 0 10.8 4.84 10.8 10.8 0 5.97-4.84 10.8-10.8 10.8Zm5.93-8.09c-.33-.16-1.93-.95-2.23-1.06-.3-.11-.52-.16-.73.16-.22.33-.84 1.06-1.03 1.27-.19.22-.38.25-.71.08-.33-.16-1.38-.51-2.63-1.62-.97-.87-1.63-1.94-1.82-2.27-.19-.33-.02-.5.14-.67.15-.15.33-.38.5-.57.16-.19.22-.33.33-.54.11-.22.05-.41-.03-.57-.08-.16-.73-1.76-1-2.41-.27-.64-.54-.55-.73-.56h-.63c-.22 0-.57.08-.87.41-.3.33-1.14 1.11-1.14 2.71s1.17 3.14 1.33 3.36c.16.22 2.3 3.5 5.56 4.91.78.34 1.39.54 1.86.69.78.25 1.49.21 2.05.13.63-.09 1.93-.79 2.2-1.55.27-.76.27-1.41.19-1.55-.08-.14-.3-.22-.63-.38Z"/></svg></a>
 `;
 
 const menuButton = document.querySelector<HTMLButtonElement>('.menu-toggle');
